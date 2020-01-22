@@ -67,7 +67,7 @@ body{
 	.form .form__element input, .form .form__element textarea{
 		display:block; width:100%; border:none; border-bottom:1px solid #FFF; height:40px; color:#000; font-size:17px; padding:5px 15px;
 	}
-	.form .form__element input{text-transform:capitalize;}
+	.form .form__element input[name='ФИО']{text-transform:capitalize;}
 	.form .form__element textarea{
 		resize:vertical;
 	}
